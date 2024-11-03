@@ -13,3 +13,4 @@ pm=x*y
 print(pm)
 cumul = np.cumsum(y)
 print("la somme cumulative :",cumul)
+print("modification features 1")
