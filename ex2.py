@@ -28,7 +28,7 @@ plt.show()
 total_ventes_marque = data.groupby('marque')['nombre_ventes'].sum()
 print("\nNombre total de ventes pour chaque marque :")
 print(total_ventes_marque)
-
+print("modification de ranim feature 3 ")
 mois_par_marque = data.loc[data.groupby('marque')['nombre_ventes'].idxmax()]
 print(mois_par_marque[['marque', 'mois', 'nombre_ventes']])
 
