@@ -31,6 +31,17 @@ for i in range(len(kernels)):
             accuracy = metrics.accuracy_score(y_test, y_pred)
 
             results_matrix[i, j] = accuracy
+            
+            
+            
+ print("modification feature 3 amal")           
+            
+            
+            
+            
+            
+            
+            
 
 results_df = pd.DataFrame(results_matrix, kernels, train_sizes)
 print(results_df)
