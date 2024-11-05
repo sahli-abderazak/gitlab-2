@@ -34,7 +34,10 @@ for i in range(len(kernels)):
             
             
             
- print("modification feature 3 amal")           
+ print("modification feature 3 amal") 
+ 
+ 
+ print("mod3")          
             
             
             
