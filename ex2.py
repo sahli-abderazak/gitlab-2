@@ -43,5 +43,6 @@ print(meilleur_mois_par_modele[['modele', 'mois', 'nombre_ventes']])
 
 modele_max_ventes = data.groupby('modele')['nombre_ventes'].sum().idxmax()
 print(f"Le modèle avec le plus grand nombre de ventes est : {modele_max_ventes}")
+print("malak")
 
 
