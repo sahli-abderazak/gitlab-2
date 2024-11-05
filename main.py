@@ -15,4 +15,4 @@ cumul = np.cumsum(y)
 print("la somme cumulative :",cumul)
 print("modification features 1")
 print("modification feature 2")
-
+print("ranim")
